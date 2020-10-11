@@ -1,0 +1,54 @@
+= School-IoT
+Kronreif Vinzent, Rieser Felix, Rajkovaca Robert
+1.0.0, 2020-10-11
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== Project Title
+School-IoT
+
+== Project Client
+HTL Leonding
+
+== Project Background
+Due to the tendency of decreasing air quality in the classrooms, which leads to poorer learning quality
+the IoT - Smart School project was launched in 2019. This was intended to improve air quality
+of the classes and make pupils aware of poor air quality. Incorrect or continuous ventilation
+can increase heating costs unnecessarily. It also happens more often that in classrooms the windows have been forgotten
+and these are open for a longer period, unless the school caretaker or cleaning staff close.
+
+== Project Result
+Until now, we haven't been told what our tasks for this project will be, because this project was already been made
+by a few other classes, so we expect that we have to improve the project or add new features.
+
+== Project Goals
+The IoT - Smart School is a project that aims to improve the quality of life in classrooms while reducing costs.
+
+== Milestones
+* Get existing work running
+* Learn to use Mosquitto for MQTT Broker
+
+== Project Start
+We will start to work on this project on Monday, 2020-10-12. A few other teams worked on this project before.
+
+== Project End
+The expected end of the project is the end of the fifth grade (2022).
+
+== Project Organisation
+=== 4AHIF
+* Vinzent Kronreif
+* Felix Rieser
+* Robert Rajkovaca
+
+=== 4AHITM
+* Oirer
+* Edlinger
+* Ecker
