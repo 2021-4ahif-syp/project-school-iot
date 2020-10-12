@@ -30,7 +30,7 @@ Until now, we haven't been told what our tasks for this project will be, because
 by a few other classes, so we expect that we have to improve the project or add new features.
 
 == Project Goals
-The IoT - Smart School is a project that aims to improve the quality of life in classrooms while reducing costs.
+The IoT - Smart School is a project that aims to improve the quality of life in classrooms while reducing costs. It will increase the learn quality because student's will get the perfect amount of Oxygen all the time.
 
 == Milestones
 * Get existing work running
