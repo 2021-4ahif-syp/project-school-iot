@@ -5,9 +5,6 @@ import org.eclipse.microprofile.reactive.messaging.Outgoing;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.json.Json;
-import javax.json.JsonBuilderFactory;
-import javax.json.JsonObject;
-import javax.json.bind.JsonbBuilder;
 import java.sql.Timestamp;
 import java.util.concurrent.TimeUnit;
 
