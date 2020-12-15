@@ -1,6 +1,9 @@
 package at.htl.mqtt;
 
+import io.reactivex.BackpressureOverflowStrategy;
 import io.reactivex.Flowable;
+import io.reactivex.annotations.BackpressureSupport;
+import org.eclipse.microprofile.reactive.messaging.OnOverflow;
 import org.eclipse.microprofile.reactive.messaging.Outgoing;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -20,6 +23,7 @@ public class ValueGenerator {
     @Outgoing("4ahif")
     public Flowable<Double> generate() {
         return Flowable.interval(3, TimeUnit.SECONDS)
+                .onBackpressureDrop()
                 .map(tick -> {
                     double addToTemperature = random.nextInt(6);
                     int plusOrMinus = random.nextInt(2);

@@ -4,6 +4,7 @@ package at.htl.mqtt;
 import javax.enterprise.context.ApplicationScoped;
 
 import org.eclipse.microprofile.reactive.messaging.Incoming;
+import org.eclipse.microprofile.reactive.messaging.OnOverflow;
 import org.jboss.logging.Logger;
 
 /**
@@ -17,6 +18,7 @@ public class ValueProcessor {
     private static final Logger LOG = Logger.getLogger(ValueProcessor.class);
 
     @Incoming("sample_data")
+    @OnOverflow(value = OnOverflow.Strategy.LATEST)
     public void process(byte[] priceRaw) {
         LOG.info("sample_data: " + new String(priceRaw));
     }
